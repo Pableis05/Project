@@ -60,6 +60,7 @@ public class Main{
 				case 3: searchProjectsBeforeDate();
 				break;
 				case 0:
+				System.out.println("thank you");
 				break;
 				default:
 				System.out.println("error enter again");
