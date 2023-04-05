@@ -1,9 +1,3 @@
-/**
-The Project class represents a project that can be registered in the system.
-It contains the project's name, client name, initial and final date, budget, and type.
-The class provides methods to get and set the values of each attribute and to format the dates.
-*/
-
 package model;
 
 import java.util.Calendar;
@@ -12,7 +6,11 @@ import java.text.SimpleDateFormat;
 
 import java.text.ParseException;
 
-
+/**
+The Project class represents a project that can be registered in the system.
+It contains the project's name, client name, initial and final date, budget, and type.
+The class provides methods to get and set the values of each attribute and to format the dates.
+*/
 public class Project{
 
 	//attributes

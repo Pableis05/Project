@@ -1,11 +1,3 @@
-/**
-
-The Controller class is responsible for managing the list of projects.
-It provides methods for registering new projects, searching for projects based on a given date,
-and converting a string to a calendar object.
-It also has methods for getting the number of projects and accessing a project at a specific index in the list.
-*/
-
 package model;
 
 import java.text.ParseException;
@@ -15,6 +7,13 @@ import java.util.Calendar;
 import java.util.List;
 
 
+/**
+
+The Controller class is responsible for managing the list of projects.
+It provides methods for registering new projects, searching for projects based on a given date,
+and converting a string to a calendar object.
+It also has methods for getting the number of projects and accessing a project at a specific index in the list.
+*/
 public class Controller {
 
 	private Project[] projects;

@@ -11,7 +11,7 @@ import model.Project;
 /**
 The Main class is the entry point for the program, which provides a menu to interact with a
 Controller object, allowing the user to create and manage projects. Also the user can consult
-the proyects that starts after or ends before a certain date enter by him.
+the projects that starts after or ends before a certain date enter by him.
 */
 public class Main{
 
@@ -184,7 +184,7 @@ public class Main{
  	*/
 	
 	public void searchProjectsBeforeDate() throws ParseException {
-
+		
 		System.out.println("Enter the date to check in format dd-MM-yyyy"); 
 		String dateSearch = input.next();
 		List<Project> projectsBeforeDate = controller.searchProjectsBeforeDate(dateSearch);
@@ -193,6 +193,7 @@ public class Main{
 		} else {
 			for (Project project : projectsBeforeDate) {
 				System.out.println(project.getProjectInfo());
+				
 			}
 		}
 	}
